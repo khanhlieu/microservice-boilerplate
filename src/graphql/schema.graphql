@@ -1,0 +1,13 @@
+"Get microservice's information output"
+type GetMicroserviceInformationOutput {
+  "Microservice's name"
+  name: String!
+  "Microservice's environment"
+  env: String!
+}
+
+"Root query"
+type Query {
+  "Get microservice's information query"
+  getMicroserviceInformation: GetMicroserviceInformationOutput!
+}

@@ -1,0 +1,6 @@
+**/build
+**/coverage
+
+**/__generated__
+
+**/tsconfig.json
